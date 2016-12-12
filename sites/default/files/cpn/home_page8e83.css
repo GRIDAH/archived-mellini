@@ -1,0 +1,9 @@
+.tabs ul.primary {
+display: none;
+}
+#page-title {
+display: none;
+}
+#page, #main-wrapper, #main-menu-links li a.active, #main-menu-links li.active-trail a {
+    background: none repeat scroll 0 0 #302b2c;
+}

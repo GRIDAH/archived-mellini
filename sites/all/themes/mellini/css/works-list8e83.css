@@ -1,0 +1,261 @@
+/* ------ Styling for works list and grid. -------- */
+
+/* ------ Identification status styling ----- */
+
+/* colours for the Identification Status */
+.Identified {
+    background-color: #99FF99 !important;
+    padding: 2px 8px;
+}
+.Possibly.Identified, .Possibly-Identified {
+    background-color: #ffff66 !important;
+    padding: 2px 8px;
+}
+.Related {
+    background-color: #FFAA22 !important;
+     padding: 2px 8px;
+}
+.Example {
+    background-color: #FF9999 !important;
+    padding: 2px 8px;
+}
+.Unidentified, .no-identification {
+   background-color: #dcdddd;
+   padding: 2px 8px;
+}
+.rn-link {
+    float: right; /* pushes research ntoes link to right */
+}
+.wl { 
+    width: 204px; /* sets pixel width for ID status coloured bar*/
+}
+.page-works-grid .node-representative-image {
+    margin-top: -1.5px;
+}
+.attribution-key .Identified, 
+.attribution-key .Related, 
+.attribution-key .Possibly-Identified,
+.attribution-key .Example, 
+.attribution-key .Unidentified {
+     padding: 2px;
+}
+/* Works List Introduction */
+
+.intro-text {
+    width: 470px; /* width for two-column intro text */
+    border: none;
+    font-family: 'Gotham SSm A', 'Gotham SSm B', Verdana, sans-serif;
+    padding-left: 0;
+    padding-right: 20px
+}
+.intro-text > p {
+    margin-top: 0;
+}
+.works-list-intro {
+    font-size: 13px;
+}
+.works-list-intro {
+    margin-left: -250px; /* pulls text left of table */
+    width: 950px;
+}
+.attribution-key td {
+    border: none;
+}
+.attribution-key {
+    font-family: 'Gotham SSm A','Gotham SSm B', Verdana, sans-serif;
+}
+.page-works-grid table, .page-works-list table {
+    border-collapse: collapse;
+}
+.intro-text td {
+    padding-left: 0; /*override padding from style.css*/
+}
+.works-grid .views-view-grid.cols-3 {
+    margin-left: -20px;
+}
+
+
+/* Tooltips */
+
+.page-works .inline-tip {
+    background: none;
+}
+
+/* Layout */
+
+.view-tomtest {
+   width: 700px;
+}
+.page-works #sidebar-first {
+   z-index: 0 !important;
+}
+.view-tomtest .item-list ol, 
+.view-tomtest .item-list li, 
+.view-tomtest .item-list ul {
+    padding: 0 !important;
+    margin-top: 0;
+    list-style: none;
+}
+.view-tomtest .field-type-image .field-items {
+   margin-bottom: -10px;
+}
+/* Exposed Filters */ 
+
+.view.view-tomtest.view-id-tomtest.view-display-id-works_list.view-dom-id-71e1bacc0db38ff9d22deb28d9ab43b9 {
+    width: 700px;
+}
+.views-exposed-widget {    
+    width: 100%; /* Prevent word-wrap or shortening */
+    word-wrap: break-word;
+}
+#input.form-text, textarea.form-textarea, select.form-select {
+    border: 1px solid #CCCCCC;
+    width: 100%;
+    word-wrap: break-word;
+}
+.views-exposed-form .views-exposed-widget .form-submit {
+    margin-top: 0;
+    width: 100%;
+}
+#block-views-exp-artist-list-works-grid, #block-views-exp-tomtest-works-list {
+    margin-top: 360px;
+    margin-left: 43px;
+    padding: 0;
+    width: 190px;
+}
+.page-works-grid  tbody, .page-works-list  tbody {
+    border-top: none;
+}
+.works-list table, .works-grid table, #ui-accordion-header {
+    font-size: 12px;
+}
+/* Image grid styling */
+
+.works-grid table {
+   width: auto !important; /*to override default, which spans whole page*/
+}
+.col-3.image-bank-row {
+    width: 33%;
+}
+.image-bank-grid tbody {
+    border-top: medium none;
+    vertical-align: top;
+}
+.image-bank-grid tr td, tr th {
+    padding: 4px 9px;
+    text-align: left;
+}
+.works-grid .node-teaser {
+    margin-bottom: 0;
+    padding-bottom: 0 !important;
+}
+.image-bank-grid {
+    width: 200px;
+    border: 1px solid #1d1d1d !important;
+    padding: 10px !important;
+}
+.grid-caption p {
+    margin-top: 0;
+}
+
+/* Indent Text in Concordance */
+
+.indent {
+    padding-left: 1.5em;
+    text-indent: -1.5em;
+    margin-bottom: 10px;
+ }
+.views-align-left {
+    vertical-align: top;
+}
+
+/* Styling for List */
+
+input.form-submit, a.button {
+    border-radius: 0;
+}
+.works-list .item-number, .works-list-item-no, .works-list-folio-no {
+    text-transform: lowercase;
+}
+.Related p, .Identified p, .Possibly-Identified p, .Example p {
+    margin-top: 0px; 
+}
+.works-list .views-field-title {
+    width: 80px; /*sets width for column 1*/
+}
+.works-list .works-list-folio-no {
+   width: 80px; /*sets width for column 2*/
+}
+.works-list .works-list-subject {
+    width: 145px; /*sets width for column 3*/
+}
+.works-list .works-list-artist {
+    width: 145px; /*sets width for column 4*/
+}
+.works-list .id-status {
+    max-width: 220px !important;
+    width: 220px; /*sets width for column 5*/
+}
+.works-list-caption p {
+    margin-top: 0;
+}
+.Identified > a, .Related > a, .Example > a, .Possibly-Identified > a {
+    float: right; /*to make it sit to the right of the frame*/
+}
+
+/* Styling for the Accordion dropdown */
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
+    background: none;
+}
+.ui-accordion .ui-accordion-content {
+    padding: 0;
+}
+.ui-accordion .ui-accordion-header .ui-accordion-header-icon {
+    position: absolute;
+    right: 20px;
+}
+.ui-accordion .ui-accordion-icons {
+    padding-left: 10px;
+}
+.inline-tip.concordance:hover,
+.inline-top.concordance {
+    background: none;
+}
+
+/* ---- Help button ---- */
+.inline-tip.research-notes:hover,
+.inline-tip.research-notes {
+background: none;
+}
+
+/* Switch icons for concordance dropdown */
+.ui-state-default .ui-icon {
+    background-image: url("icons/caret-right.png");
+    background-position: -1px;
+}
+.ui-state-active .ui-icon {
+    background-image: url("icons/caret-down.png");
+}
+.ui-icon-triangle-1-e {
+    background-position: 0;
+}
+.ui-icon-triangle-1-s {
+    background-position: 0;
+}
+
+/* Colorbox Close Icon */
+#cboxClose.cbox-close-plain {
+	background: url("icons/close-icon.png") no-repeat scroll center rgba(0, 0, 0, 0);
+	border-radius: 20px;
+	color: rgba(255, 255, 255, 0.7);
+	font-size: 0;
+	z-index: 2147483647 !important;
+}
+#cboxLoadedContent{
+	margin-top:28px;
+	margin-bottom:0;
+}
+#colorbox #cboxClose {
+	top: 0;
+	right: 0;
+}

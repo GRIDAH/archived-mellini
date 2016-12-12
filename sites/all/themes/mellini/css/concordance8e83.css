@@ -1,0 +1,75 @@
+/* Styling for Concordance */
+
+.concordance {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+}
+.concordance td {
+    background: #f9f3e2;
+}
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
+    border: 1px solid #1d1d1d;
+    color: #1d1d1d;
+}
+.concordance .rh, .concordance th {
+   background-color: #cccccc;
+   color: #1d1d1d !important;
+   border: 1px solid #1d1d1d !important;
+}
+.col1 {
+   width: 140px;
+}
+.col2, .col3 {
+   width: 300px;
+}
+.field-item.even > p {
+    margin-top: 0;
+}
+.concordance-button {  
+   margin-top: 10px;
+}
+.reply {
+    margin-left: 30px;
+}
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
+    font-size: 12px;
+    font-family: 'Gotham Narrow SSm A','Gotham Narrow SSm B', Verdana, sans-serif;
+}
+.ui-accordion .ui-accordion-content {
+    font-size: 0.9em;
+}
+.views-field-fields-combine table {
+    margin-bottom: 0px;
+}
+
+#cboxContent > div {
+    overflow: hidden !important; /*to prevent scroll bar appearing */
+}
+.ui-accordion .ui-accordion-content {
+    overflow: hidden; /*to prevent scroll bar appearing */
+    height: 100% !important; /*to fit height of window when open*/
+}
+
+.ds-r3c2 > p,
+.ds-r3c3 > p,
+.ds-r4c2 > p,
+.ds-r4c3 > p,
+.ds-r5c2 > p,
+.ds-r5c3 > p,
+.ds-r6c2 > p,
+.ds-r6c3 > p,
+.ds-r7c2 > p,
+.ds-r7c3 > p
+{
+margin-top: 0 !important;
+}
+.ds-r6c2 > p {
+margin-bottom: 0;
+}
+.ui-state-default a, .ui-state-default a:link, .ui-state-default a:visited {
+    color: #1d1d1d !important;
+}
+.inline-tip.concordance > img {
+    height: 15px;
+}

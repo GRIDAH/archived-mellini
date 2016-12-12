@@ -1,0 +1,459 @@
+
+body.node-type-page {
+    font-family: "Gotham SSm A","Gotham SSm B",Verdana,sans-serif;
+}
+.deepzoom {
+    height: 600px;
+}
+.inline-tip, .inline-tip-right {
+    background: #e1e57c none repeat scroll 0 0;
+    cursor: pointer;
+}
+.inline-tip:hover, .inline-tip-right:hover {
+    background: #cbd844 none repeat scroll 0 0;
+}
+.doublerainbow {
+    background: pink none repeat scroll 0 0;
+}
+.inline-tip-active, .inline-tip-right-active {
+    background: #cbd844 none repeat scroll 0 0;
+}
+.sidr.left {
+    top: 100px;
+}
+h2.sidr-class-element-invisible {
+    display: none;
+}
+.comment-indent {
+    margin: 15px 0 0 30px;
+}
+.views-field-view {
+    padding: 0;
+}
+body {
+    color: #1d1d1d;
+    font-family: "Gotham Narrow SSm A","Gotham Narrow SSm B",Verdana,sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+body.page-bibliography {
+    font-family: "Gotham SSm A","Gotham SSm B",Verdana,sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Gotham SSm A","Gotham SSm B",Verdana,sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+}
+#sidebar-first {
+    left: -13px;
+    position: absolute;
+    z-index: 500;
+}
+.sidebar .block {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+}
+.horizontal-tabs ul.horizontal-tabs-list li a {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+}
+#block-nice-menus-1.active {
+    height: 500px;
+    margin-left: -5px;
+    margin-top: -2px;
+}
+#block-nice-menus-1 h2 {
+    border: 0 none;
+}
+#block-nice-menus-2 {
+    left: 0;
+    padding: 0;
+    position: fixed;
+    top: 29px;
+    z-index: 900;
+}
+ul#nice-menu-2 {
+    border-top: medium none;
+    height: 1700px;
+}
+body.front ul#nice-menu-2 {
+    height: 1400px !important;
+}
+ul#nice-menu-2 li, ul#nice-menu-2 li ul li {
+    text-transform: uppercase;
+}
+ul#nice-menu-2 li {
+    font-family: "Gotham SSm A","Gotham SSm B",Verdana,sans-serif;
+    font-size: 0.883em;
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: 0.12em;
+}
+ul#nice-menu-2 li ul li {
+    font-weight: 500;
+    letter-spacing: 0;
+}
+ul#nice-menu-2 li ul li {
+    display: inline;
+    float: left;
+    list-style-type: none;
+}
+ul#nice-menu-2 li ul {
+    background: rgba(0, 0, 0, 0) url("sites/all/modules/popup/styles/obsidian/images/menu_back.png") repeat scroll 0 0;
+    height: 394px;
+    left: 195px;
+    width: 272px;
+}
+ul#nice-menu-2 li > ul {
+    border-left: 1px solid #312b2c;
+}
+ul#nice-menu-2 li ul li ul {
+    border: medium none !important;
+}
+ul#nice-menu-2 li ul li.menu-path-manuscript-part-1 a:hover, ul#nice-menu-2 li ul li.menu-path-manuscript-part-2 a:hover {
+    color: #bbb8b8;
+}
+ul#nice-menu-2 li ul li a:hover, ul#nice-menu-2 li ul li ul li a:hover, ul#nice-menu-2 li ul li.menu-path-manuscript-part-1 ul li a:hover, ul#nice-menu-2 li ul li.menu-path-manuscript-part-2 ul li a:hover, ul#nice-menu-2 li ul li.menu-path-manuscript-part-1 ul li a.active, ul#nice-menu-2 li ul li.menu-path-manuscript-part-2 ul li a.active, ul#nice-menu-2.nice-menu li.menu-2397 ul li.menu-2398 a.active {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0 !important;
+    color: white !important;
+    font-weight: bold !important;
+}
+ul#nice-menu-2 li ul li ul {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    display: block !important;
+    height: 290px;
+    left: 23px;
+    top: 25px;
+    visibility: visible !important;
+    width: 12em;
+}
+ul#nice-menu-2 li ul li ul li {
+    letter-spacing: 0;
+    line-height: 20px;
+    margin: -10px;
+    padding: 0;
+    text-transform: none;
+    width: 12em;
+}
+ul.nice-menu li.over ul li ul {
+    visibility: visible;
+}
+ul.nice-menu li ul li.menu-2399, li.menu-path-node-376 {
+    left: -7px;
+    top: 290px;
+    width: 240px;
+}
+ul.nice-menu li ul li.menu-2399 a, li.menu-path-node-376 a {
+    font-size: 1em;
+    text-transform: none;
+}
+ul.nice-menu li ul li.menu-2399 a:hover, li.menu-path-node-376 a:hover, ul.nice-menu li ul li.menu-2399 a.active, li.menu-path-node-376 a.active {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0 !important;
+    color: white;
+}
+ul#nice-menu-2.nice-menu li.menu-874 ul li.menu-3082, ul#nice-menu-2.nice-menu li.menu-874 ul li.menu-3082 a {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0 !important;
+    left: -7px;
+    text-transform: none;
+    top: 270px;
+    width: 232px;
+}
+ul#nice-menu-2 li ul li.menu-path-manuscript-part-1 a:hover, ul#nice-menu-2 li ul li.menu-path-manuscript-part-2 a:hover {
+    color: #b6b3b4;
+}
+ul#nice-menu-2 > li {
+    border-bottom: 1px solid #312b2c;
+    border-top: 1px solid #1b1a16;
+    height: 50px;
+}
+ul#nice-menu-2 li > a {
+    padding-top: 16px;
+}
+ul#nice-menu-2 li ul li a {
+    padding-top: 10px;
+}
+ul#nice-menu-2 > li:hover, ul#nice-menu-2 li > a.active {
+    background: rgba(0, 0, 0, 0) url("sites/all/modules/popup/styles/obsidian/images/menu_back_hover.png") repeat scroll 0 0;
+}
+ul.nice-menu li ul li.menu-865, ul.nice-menu li ul li.menu-866 {
+    left: -5px;
+    top: 1px;
+}
+ul.nice-menu li ul li.menu-865 > span.nolink, ul.nice-menu li ul li.menu-866 > span.nolink {
+    display: block;
+    font-size: 1em;
+    padding-left: 23px;
+    padding-top: 13px;
+}
+ul#nice-menu-2.nice-menu li.menu-874 > span {
+    display: block;
+    font-size: 1.34em;
+    padding-left: 24px;
+    padding-top: 22px;
+}
+ul#nice-menu-2.nice-menu > li.menu-874 {
+    font-weight: 500;
+    height: 70px;
+}
+ul#nice-menu-2.nice-menu li.menu-2397 ul li.menu-2398 a {
+    text-transform: none;
+}
+ul#nice-menu-2.nice-menu li.menu-2397 ul li.menu-2398 {
+    margin-top: -6px;
+    width: 11em;
+}
+ul#nice-menu-2.nice-menu li.menu-2397 > ul {
+    height: 52px;
+}
+div#popup-active-overlay div#popup-element-0-active.popup-element-wrapper div.popup-element-origin div.popup-element-body table.popup-layout {
+    z-index: 900;
+}
+#popup-active-overlay {
+    z-index: 990;
+}
+div#popup-element-0-active.popup-element-wrapper div.popup-element-origin div.popup-element-body table.popup-layout tbody tr.center td.center div.inner {
+    width: 190px !important;
+}
+ul#nice-menu-2.nice-menu li.menu-2400 {
+    border-top: medium none !important;
+}
+ul#nice-menu-2.nice-menu li ul li {
+    font-size: 1em;
+}
+#footer-left {
+    margin-left: 62px;
+}
+#block-block-20 {
+    float: right;
+    height: 20px;
+    margin-bottom: 17px;
+    margin-top: -15px;
+    width: 20px;
+}
+html.js body.node-type-manuscript-page div#page-wrapper div#page div#main-wrapper.clearfix div#main.clearfix h1#page-title.title {
+    border: medium none !important;
+}
+#page-title.type {
+    margin-top: 52px;
+    max-width: 975px;
+}
+html.js body.node-type-manuscript-page div#page-wrapper div#page div#main-wrapper.clearfix div#main.clearfix div#content.column {
+    margin-left: 0;
+    width: 950px;
+}
+.ds-2col-stacked-fluid {
+    margin-top: 22px;
+    width: 950px;
+}
+.node-type-manuscript-page div#page-wrapper div#page div#main-wrapper.clearfix div#main.clearfix div#content.column div.section div.region div#block-system-main.block div.content div.ds-2col-stacked-fluid table.manuscript tbody tr td.ms-row2 div.group-left div.field-group-htabs-wrapper div.horizontal-tabs ul.horizontal-tabs-list {
+    margin-left: 328px;
+    width: 280px;
+}
+.node-type-manuscript-page div#page-wrapper div#page div#main-wrapper.clearfix div#main.clearfix div#content.column div.section div.region div#block-system-main.block div.content div.ds-2col-stacked-fluid table.manuscript tbody tr td.ms-row2 div.group-left div.field-group-htabs-wrapper {
+    margin: 0 auto;
+}
+.node-type-manuscript-page div#page-wrapper div#page div#main-wrapper.clearfix div#main.clearfix div#content.column div.section div.region div#block-system-main.block div.content div.ds-2col-stacked-fluid table.manuscript tbody tr td.ms-row2 div.group-right div.field-group-htabs-wrapper div.horizontal-tabs div.horizontal-tabs-panes fieldset#facsimile.group-facsimile div.fieldset-wrapper div.deepzoom div div span span span, html.js body.node-type-manuscript-page div#page-wrapper div#page div#main-wrapper.clearfix div#main.clearfix div#content.column div.section div.region div#block-system-main.block div.content div.ds-2col-stacked-fluid table.manuscript tbody tr td.ms-row2 div.group-left div.field-group-htabs-wrapper div.horizontal-tabs div.horizontal-tabs-panes fieldset#facsimile.group-facsimile div.fieldset-wrapper div.deepzoom div div span span span {
+    top: -555px !important;
+}
+div#block-views-c6f56458ddee06cd3553880dea78aa6f {
+    margin-left: 396px;
+    position: absolute;
+    top: 36px;
+    width: 160px;
+}
+#sxs-button {
+    color: #cccccc;
+    cursor: pointer;
+    font-family: "Gotham SSm A","Gotham SSm B",Verdana,sans-serif;
+    font-size: 0.84em;
+    margin-top: -3px;
+}
+html.js body.node-type-manuscript-page div#page-wrapper div#page div#main-wrapper.clearfix div#main.clearfix div#content.column {
+    margin-top: -66px !important;
+}
+html.js body.node-type-manuscript-page div#page-wrapper div#page div#main-wrapper.clearfix div#main.clearfix div#content.column div.section div.region div#block-system-main.block div.content div.ds-2col-stacked-fluid table.manuscript tbody tr td.ms-row2 div.group-left div.field-group-htabs-wrapper div.horizontal-tabs ul.horizontal-tabs-list li.first {
+    margin-left: 15px;
+}
+#block-block-7 {
+    left: 10px;
+    position: relative;
+    top: 32px;
+}
+.comments-btn {
+    left: 10px;
+    margin-top: -3px;
+}
+.font-btn {
+    left: 20px;
+    margin-top: -3px;
+}
+span.freepager-next a, span.freepager-previous a {
+    color: #302b2c;
+    text-decoration: none;
+}
+span.freepager-next a:nth-child(2), span.freepager-previous a:nth-child(2) {
+    font-family: "Gotham SSm A","Gotham SSm B",Verdana,sans-serif;
+    font-size: 12px;
+}
+body.node-type-manuscript-page div#page-wrapper div#page div#main-wrapper.clearfix div#main.clearfix div#content.column {
+    line-height: 1.3em;
+}
+.node-type-manuscript-page .tpd-close-icon {
+    background: rgba(0, 0, 0, 0) url("sites/all/themes/mellini/css/icons/close-icon.png") no-repeat scroll 0 0;
+    font-size: 0;
+    height: 16px;
+    line-height: 0;
+    width: 16px;
+}
+.node-type-manuscript-page .tpd-size-medium .tpd-close {
+    height: 16px;
+    margin: 4px;
+    width: 16px;
+}
+.tpd-skin-mellini-mss-artist .tpd-content, .tpd-skin-mellini-mss-artist .tpd-title {
+    font-size: 12px !important;
+    line-height: 18px !important;
+}
+.tpd-skin-mellini-mss-artist .tpd-content, .tpd-skin-mellini-mss-artist .tpd-title, .tpd-skin-mellini-mss-artist .tpd-close {
+    color: #1d1d1d;
+    font-family: "Gotham SSm A","Gotham SSm B",Verdana,sans-serif;
+    max-width: 140px;
+}
+.tpd-skin-mellini-mss-artist .tpd-background-content {
+    background-color: #ffffff;
+}
+.tpd-skin-mellini-mss-artist .tpd-background {
+    border: medium none;
+    border-radius: 0 !important;
+}
+.tpd-skin-mellini-mss-artist .tpd-background-title {
+    background-color: #ffffff;
+}
+.tpd-skin-mellini-mss-artist .tpd-title-wrapper {
+    border-bottom: medium none;
+}
+.tpd-skin-mellini-mss-artist .tpd-background-shadow {
+    box-shadow: 0 3px 5px 0 #b7b2a6;
+}
+.tpd-skin-mellini-mss-artist a.artistpop {
+    color: #000 !important;
+    font-family: "Gotham SSm A","Gotham SSm B",Verdana,sans-serif;
+    font-size: 12px;
+    font-weight: 700 !important;
+}
+.tpd-skin-mellini-mss-artist a.artistpop:hover {
+    text-decoration: underline;
+}
+.tpd-skin-mellini-mss-artist a.artistpop:visited {
+    color: #000 !important;
+}
+.tpd-skin-mellini-mss-artist .tpd-stem {
+    display: none;
+}
+div.tpd-skin-mellini-mss div.tpd-content-wrapper div.tpd-content-spacer div.tpd-content-relative div.tpd-content-relative-padder div.tpd-content {
+    font-family: "Gotham SSm A","Gotham SSm B",Verdana,sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+div.tpd-skin-mellini-mss div.tpd-content-wrapper div.tpd-content-spacer div.tpd-title-wrapper div.tpd-title-spacer div.tpd-title-relative div.tpd-title-relative-padder div.tpd-title {
+    font-family: "Gotham SSm A","Gotham SSm B",Verdana,sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+}
+.tpd-skin-mellini-mss-artist {
+    font-family: "Gotham SSm A","Gotham SSm B",Verdana,sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+}
+.marginalia a.marno, .marginalia-pull-left a.marno, .marginalia a:hover, .marginalia-pull-left a:hover {
+    color: #000000 !important;
+}
+#popup-element-0.popup-element-active, body.front div#page-wrapper div#page div#main-wrapper.clearfix div#main.clearfix div#sidebar-first.column div.section div.region div#block-nice-menus-2.block div.content div#popup-element-0 {
+    display: none;
+    visibility: hidden;
+}
+.part-2-right {
+    clear: both;
+}
+div#popup-element-0 a span img {
+    padding-top: 10px;
+}
+td.right {
+    padding-right: 0 !important;
+}
+div#popup-active-overlay div#popup-element-0-active.popup-element-wrapper div.popup-element-origin div.popup-element-body table.popup-layout tbody tr.center td.center div.inner {
+    margin-right: -25px;
+}
+body.node-type-manuscript-page div.tpd-has-title-close div.tpd-content-wrapper div.tpd-content-spacer div.tpd-content-relative div.tpd-content-relative-padder div.tpd-content div a {
+    color: #1b90ad;
+}
+body.node-type-manuscript-page div.tpd-has-title-close div.tpd-content-wrapper div.tpd-content-spacer div.tpd-content-relative div.tpd-content-relative-padder div.tpd-content div a:hover {
+    text-decoration: underline;
+}
+a.artist, a.artist_noul, span.artist, span.artist_noul {
+    color: #000 !important;
+    font-weight: 700 !important;
+}
+.marcolor {
+    color: #000 !important;
+    text-decoration: none;
+}
+ul#nice-menu-2 li ul li ul li a.active {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0 !important;
+}
+html.js body.page-artists div#page-wrapper {
+    min-height: 1400px;
+}
+.menu-3101 .nolink {
+    padding: 16px 5px 1em 25px;
+    position: relative;
+    top: 16px;
+}
+.menu-2397 > a, .menu-2398 > a, .menu-3292 > a, .menu-3321 > a {
+    height: 20px;
+    text-transform: none;
+    width: 200px;
+}
+.menu-2397, .menu-2398, .menu-3292, .menu-3321 {
+    clear: both;
+    float: none;
+    height: 23px;
+    line-height: 0.4em;
+}
+.menu-3101.menuparent.menu-path-nolink.odd.last > ul {
+    height: 85px !important;
+}
+.tpd-content div a {
+    color: #1b90ad;
+}
+.tpd-content div a:hover {
+    color: #1b90ad;
+    text-decoration: underline;
+}
+.tpd-content div a:visited {
+    color: #888888 !important;
+}
+.field-name-button::after, .field-name-button-mss-comments-eng::after {
+    clear: both;
+    content: " ";
+    display: block;
+    height: 8px;
+}
+.create-font-button-space::after {
+    clear: both;
+    content: " ";
+    display: block;
+    height: 8px;
+}
+#jpgt-copyright {
+    display: none;
+}
+.marginalia-pull-left .marcolor {
+    margin-left: 25px !important;
+}
+body.node-type-representative-image div.view-content span.views-label {
+    display: none;
+    visibility: hidden;
+}
+div.supporting-image {
+    line-height: 1.2em;
+}

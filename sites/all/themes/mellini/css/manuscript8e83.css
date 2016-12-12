@@ -1,0 +1,436 @@
+/* Page Title */
+
+.node-type-manuscript-page #page-title.type {
+   border-bottom: none !important;
+   max-width: 950px;
+   font-family: 'Gotham SSm A', 'Gotham SSm B', Verdana, sans-serif;
+   font-weight: 400;
+   font-style: normal;
+   font-size: 22px;
+}
+.node-type-manuscript-page #page-title.title {
+    display: none;
+}
+.page-node-2 .folio { /* removes folio label from cover */
+    display: none;
+}
+#sxs-button {
+float: right;
+}
+.manuscript {
+  clear: both;
+  z-index: 99;
+}
+
+.page-node-244 .group-left #english .part-2-right {
+    margin-right: 5px !important;
+}
+.page-node-244 .group-left #translation .part-2-right {
+    width: 320px;
+}
+.page-node-250 .part-2-right {
+    width: 450px !important;
+}
+.page-node-250 .part-2-right > p {
+    width: 100%;
+}
+.node-type-manuscript-page #block-nice-menus-2 {
+    left: 40px;
+}
+/* --- Tabs --- */
+
+.group-left .horizontal-tabs-list { /* single pane tabs */
+    padding: 5px 0 !important;
+}
+.group-left.double .horizontal-tabs-list { /* double pane left tabs */
+       margin-left: 108px !important;
+}
+.group-right.double .horizontal-tabs-list {
+        margin-left: 111px !important;  /* double pane right tabss */
+        padding: 5px 0;
+}
+div.group-left div.field-group-htabs-wrapper div.horizontal-tabs ul.horizontal-tabs-list li.first {
+	padding-left: 2px;
+}
+/* --- Manuscript Table styling --- */
+
+.node-type-manuscript-page tr, tr.even {
+    background: none repeat scroll 0 0 #FFFFFF;
+}
+.node-type-manuscript-page .views-view-grid tr td, 
+.node-type-manuscript-page tr th {
+   padding: 0px !important;
+   background-color: #000000;
+}
+.node-type-manuscript-page tr td, 
+.node-type-manuscript-page tr th {
+    border: none !important;
+}
+.manuscript-thumb img {
+    float: left;
+    height: 270px;
+    margin-bottom: 10px;
+    width: 200px;
+}
+
+
+/* --- Manuscript Pages styling --- */
+
+.ms-title {
+    float: left;
+    font-family: 'Gotham SSm A', 'Gotham SSm B', Verdana, sans-serif;
+    color: #cccccc;
+    font-size: 12pt;
+    font-weight: 400;
+    width: 100%;
+    text-align: center;
+    padding: 5px 0;
+}
+.marcolor {
+    background: #7ac1d3;
+    padding: 0px 3px;
+    margin-left: 40px;
+}
+.marginalia a {
+    color: #000000;
+}
+.marginalia {
+    padding-bottom: 20px;
+}
+.marno {
+    color: #000000 !important;
+}
+fieldset {
+    border-radius: 0px !important;
+}
+.manuscript tr td, .manuscript tr th {
+    padding: 0;
+    border: 1px solid #666666 !important;
+    background-color: #312b2c !important; /*to override global table style*/
+}
+.manuscript .fieldset-wrapper {
+    border-top: 1px solid #666666;
+}
+.group-transcription, .group-english {
+   min-height: 600px;
+}
+.group-facsimile {
+   background-color: #312b2c; /*to override global table style*/
+}
+.group-facsimile.field-group-htab.form-wrapper.horizontal-tabs-pane,
+.group-transcription.field-group-htab.form-wrapper.horizontal-tabs-pane, 
+.group-english.field-group-htab.form-wrapper.horizontal-tabs-pane {
+    margin: 0;
+    padding: 0;
+}
+
+.no-indent-center { /*styling for title on folio 1 recto*/
+    margin-top: 40px;
+    margin-bottom: 40px;   
+    text-align: center;
+	font-family: 'Gotham SSm A', 'Gotham SSm B', Verdana, sans-serif;
+}
+.artist {
+    text-decoration: underline !important;
+    font-weight: 700;
+}
+.artist:hover, .artist:visited, .artist:active  {
+    text-decoration: underline;
+}
+.artist.noul {
+    text-decoration: none !important;
+    font-weight: 500;
+}
+.artist.noul:hover {
+    text-decoration: underline !important;
+}
+.artist.noul:active { 
+    text-decoration: underline !important;
+}
+.artist.noul:visited {
+    text-decoration: underline !important;
+}
+.artistpop a {
+    font-weight: 500;
+    color: #1b90ad;
+    text-decoration: none;
+}
+.artistpop:hover, .artistpop:visited, .artistpop:active {
+    text-decoration: underline;
+}
+.field-group-htab.group-facsimile.form-wrapper.horizontal-tabs-pane {
+    margin: 0px;
+}
+
+.horizontal-tabs-panes.horizontal-tabs-processed {
+    min-height: 600px;
+    margin-top: -18px; /* messy, but I can't work out where the blank space under tabs is coming from */
+}
+div.horizontal-tabs {
+    border: 0;
+}
+.horizontal-tabs ul.horizontal-tabs-list li {
+    background: none;
+    border-right: 0;
+}
+.horizontal-tabs ul.horizontal-tabs-list li a {
+    font-family: 'Gotham SSm A', 'Gotham SSm B', Verdana, sans-serif;
+    font-style: normal;
+    font-weight: 500 !important;
+    letter-spacing: 0.05em;
+    font-size: 11px;
+    border-radius: 15px;
+    text-align: center;
+    color: #cccccc;
+}
+.horizontal-tabs ul.horizontal-tabs-list .selected strong {
+    color: #cccccc;
+}
+.horizontal-tabs ul.horizontal-tabs-list li a:hover {
+    background-color: #4d4d4d;
+}
+.horizontal-tabs ul.horizontal-tabs-list li a, .horizontal-tabs ul.horizontal-tabs-list li.selected a {
+    padding: 0 5px;
+    margin: 0 5px;
+}
+.horizontal-tabs ul.horizontal-tabs-list li.selected {
+    background: none !important;
+}
+.horizontal-tabs ul.horizontal-tabs-list li:hover, .horizontal-tabs ul.horizontal-tabs-list li:focus {
+    background: none !important;
+}
+.horizontal-tabs ul.horizontal-tabs-list .selected a {
+    background-color: #666666;
+}
+.horizontal-tabs ul.horizontal-tabs-list {
+    border: none;
+}
+
+/* Indent aftr first line (per tab) */
+
+#translation p, #english p {
+    padding-left: 10px;
+    text-indent: -10px;
+    margin-left: 20px;
+	line-height: 1.3em;
+	font-family: 'Gotham SSm A', 'Gotham SSm B', Verdana, sans-serif;
+	font-size: 0.9em;
+}
+
+#translation .fieldset-wrapper>p:nth-of-type(1), #english .fieldset-wrapper>p:nth-of-type(1), .part-2-right>p:nth-of-type(1) {
+	margin-top: 0;
+}
+
+.group-left.double p, .group-right.double p {
+	width: 285px;
+}
+
+.group-left.double .part-2-right p, .group-right.double .part-2-right p {
+	width: 320px;
+	margin-right: 10px;
+}
+
+.group-left.double .field p, .group-right.double .field p {
+	width: auto !important;
+}
+.horizontal-tabs ul.horizontal-tabs-list {
+    height: 20px;
+    background: none;
+}
+
+/* Part 1 manuscript */
+
+.marginalia {
+    float:right !important;
+    width:125px !important; 
+    text-indent: 0em !important;
+    padding-left: 10px !important;
+	clear: both;
+	font-size: 11px;
+	font-weight: 400;
+	padding-right: 10px;
+	line-height: 1.15em;
+	font-family: "Gotham Narrow SSm A", "Gotham Narrow SSm B", Verdana, sans-serif;
+}
+
+
+/* Part 2 manuscript */
+
+.part-2-right {
+    float: right;
+}
+.marginalia-pull-left {
+    line-height: 1.3em;
+    clear: both;
+    width:95px !important;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    position: absolute;
+    left: 12px;
+	font-size: 11px;
+	font-weight: 400;
+	font-family: "Gotham Narrow SSm A", "Gotham Narrow SSm B", Verdana, sans-serif;
+}
+.marginalia-pull-left p {
+    margin-bottom: 10px !important;
+    clear: both !important;
+}
+
+/* part 2 MANUSCRIPT testing */
+
+.group-left .part-2-right {
+   margin-right: 20%;
+}
+.group-right.double .part-2-right,
+.group-left.double .part-2-right {
+   margin-right: 5px;
+   max-width: 380px;
+}
+.marginalia-pull-left  {
+    margin-left: 0;
+    padding-left: 0;
+    text-indent: 0;
+}
+.marginalia-long {
+        margin-left: 10px !important;
+}
+
+
+/* Styling for turn.js */
+
+.comment-add.first.last > a {
+    display: none;
+}
+.horizontal-tabs fieldset.horizontal-tabs-pane {
+    padding: 0 !important;
+}
+
+/* Styling for Double Page spread */
+.group-left.double {
+    width: 472px !important;
+}
+.group-right.double {
+    width: 474px !important;
+	border-left: 1px solid #666666;
+}
+.ds-2col-stacked-fluid {
+   width: 1024px;
+}
+
+/* styling for turnjs manuscript */
+
+#block-block-24 {
+    display: none;
+}
+.node-type-article #content {
+    margin: 0;
+}
+#block-block-25 {
+    width: 1024px;
+}
+.node-type-article .inline-tip {
+    background: none;
+}
+.node-type-article .inline-tip > img {
+    float: left;
+}
+.folio-image > img {
+    width: 100%;
+    height: 100%;
+}
+#flipbook {
+   clear: both;
+}
+#zoom-viewport {
+    max-width: 950px;
+    margin-top: 0 !important;
+    clear: both;
+}
+.node-type-article #page-title.title {
+   max-width: 950px;
+   margin-left: 0;
+   margin-top: 52px;
+   text-align: center;
+   font-family: 'Gotham SSm A', 'Gotham SSm B', Verdana, sans-serif;
+   font-weight: 400;
+   font-style: normal;
+   font-size: 22px;
+   border-bottom: 1px solid #666666;
+   color: #cccccc;
+   padding-bottom: 4px;
+}
+.node-type-article #page-title.type {
+    display: none;
+}
+
+/* Buttons */
+.comments-btn, .font-btn {
+   float: right;
+   padding-right: 10px;
+   cursor: pointer;
+}
+.deepzoom img {
+	padding: 5px !important;
+}
+
+/* Content Pager */
+.node-type-manuscript-page .fa.fa-angle-left, 
+.node-type-manuscript-page .fa.fa-angle-right {
+    font-size: 22px !important;
+    color: #ccc;
+}
+
+.fa.fa-angle-left, .fa.fa-angle-right {
+    font-size: 15px;
+}
+
+
+/* Hover states */
+.node-type-manuscript-page .fa.fa-angle-left:hover,
+.node-type-manuscript-page  .fa.fa-angle-right:hover,
+.node-type-manuscript-page #sidebar-second .popup-element-title > span:hover,
+#sxs-button:hover {
+    color: #ffffff;
+    font-weight: normal;
+}
+.node-type-manuscript-page .help.toggle:hover {
+    background: url('icons/help-icon-light.png') no-repeat scroll;
+}
+.help.toggle {
+background: url('icons/help.png') no-repeat scroll;
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+    position: absolute;
+    top: 20px;
+}
+#sidebar-second .popup-element-title:hover {
+    font-weight: 800;
+}
+
+
+/* greyed out icons for pager first and last pages */
+.page-node-2 .fa.fa-angle-left:hover,
+.page-node-2 .fa.fa-angle-left {
+    color: #5f5f5f;
+}
+.page-node-2 .freepager-previous a:hover,
+.page-node-2 .freepager-previous a {
+    pointer-events: none;
+    cursor: default;
+}
+.page-node-250 .fa.fa-angle-right:hover,
+.page-node-250 .fa.fa-angle-right {
+    color: #5f5f5f;
+}   
+.page-node-250 .freepager-next a:hover,
+.page-node-250 .freepager-next a {
+    pointer-events: none;
+    cursor: default;
+}
+
+/* Padding for seadragon icons */
+.node-type-manuscript-page > div div span span span img {
+    padding: 5px !important;
+}
+

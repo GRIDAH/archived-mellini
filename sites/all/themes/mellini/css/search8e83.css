@@ -1,0 +1,84 @@
+
+.form-text {
+	outline: none;
+}
+.page-search #content {
+    width: 700px;
+}
+.region-header #block-search-form {
+    padding-bottom: 7px;
+    position: absolute;
+    right: 0;
+    top: 2px;
+}
+.block-facetapi {
+    margin-top: 100px !important;
+    margin-left: 43px !important;
+    padding-left: 0 !important;
+}
+.group-result-other {
+    display: none !important;
+}
+
+/* Styling for Search Results Page */
+
+.page-search404 .content > h2, .page-search .content > h2 {
+    display: none;
+}
+.page-search404 #search-form input.form-submit, .page-search #search-form input.form-submit {
+    display: block;
+    border: none;
+    margin-top: 7px;
+}
+.page-search404 .action-links {
+    display: none;
+}
+.group-result-article a, .group-result-page a {
+    font-size: 13px;
+    font-style: normal;
+    font-weight: normal;
+    font-family: 'Gotham Narrow SSm A', 'Gotham Narrow SSm B', Verdana, sans-serif;
+}
+.group-result-essay .field-name-search-snippet {
+    padding-bottom: 20px;
+}
+.ds-search-highlight {
+    background-color: #66ccff;
+}
+.ds-search-extra {
+    display: none;
+}
+.group-result .field-label {
+    font-weight: normal;
+}
+.group-result > h2 {
+    border-bottom: 1px solid #999999;
+    font-size: inherit;
+    margin-bottom: 10px !important;
+    padding-bottom: 10px;
+}
+.notes-link {
+    margin-top: 10px;
+}
+.page-search .ds-2col > .group-left {
+    margin-right: 25px;
+    width: 200px;
+}
+.block-facetapi .leaf.last {
+    border-bottom: medium none;
+}
+.block-facetapi ul li.leaf {
+    list-style-type: disc;
+    list-style-image: none;
+}
+.page-search #page-title, .page-404search #page-title {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 15px;
+}
+.page-search .ds-2col > .group-right, .page-404search .ds-2col > .group-right {
+    margin-left: 10px;
+}
+.page-search .ds-2col > .group-right a, .page-404search .ds-2col > .group-right a {
+    font-weight: normal;
+    font-size: 13px;
+}

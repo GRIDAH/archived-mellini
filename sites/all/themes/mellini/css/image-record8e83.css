@@ -1,0 +1,185 @@
+/* ---------- Styling for Researh Notes ---------- */
+
+/* ----- Node Layout ----- */
+
+.research-notes-title { /* the Page Title */
+    font-family: 'Gotham SSm A', 'Gotham SSm B', Verdana, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 20px !important;
+    padding: 0;
+    margin-left: 110px;
+    margin-right: 110px;
+    margin-top: -15px;
+    padding-bottom: 5px;
+    width: 790px;
+    text-align: center;
+    text-transform: none !important;
+}
+#image-record {
+   width: 1024px;
+}
+.node-type-representative-image .panel-2col-bricks {
+    margin-left: -250px;
+}
+
+/* ---- Margins for content ---- */
+
+.node-type-representative-image .panel-col-middle {
+    margin-left: 270px;
+    margin-right: 270px;
+    width: 470px;
+}
+.node-type-representative-image .center-wrapper {
+    margin-left: 30px;
+}
+.node-type-representative-image .panel-col-first,
+.node-type-representative-image .panel-col-last {
+    font-family: 'Gotham SSm A', 'Gotham SSm B', Verdana, sans-serif;
+    width: 475px !important;
+}
+.view-display-id-block_4 {
+    width: 475px;
+}
+.node-type-representative-image .panel-2col-bricks .panel-col-first .inside {
+    margin: 0;
+}
+.rn-work-caption {
+    padding-bottom: 15px;
+}
+.node-type-representative-image .panel-2col-bricks .panel-col-last .inside {
+    margin-left: 10px !important;
+}
+
+/* ---- Back Button ---- */
+
+.back-btn {
+    position: absolute;
+    top: 12px;
+    margin-left: 30px;
+}
+.back-btn a {
+    text-decoration: none !important;
+    font-family: 'Gotham SSm A', 'Gotham SSm B', Verdana, sans-serif;
+}
+
+/* ---- General Page Styling ---- */
+
+.p11-studyimage img { 
+    width: 475px;
+    margin-bottom: 30px;
+}
+.p11-caption { 
+    margin-top: 368px;
+}
+.field-type-taxonomy-term-reference .field-label {
+    font-weight: bold;
+}
+.field-type-taxonomy-term-reference {
+    font-size: 20px;
+    margin: 0em;
+}
+.panel-2col .panel-separator {
+    margin: 0em;
+}
+.panel-2col-bricks .panel-col-last .inside {
+    margin-left: 40px;
+}
+.node-teaser {
+   border-bottom: none;
+}
+.research-notes p {
+  line-height: 1.5;
+}
+.panel-col-first .inside .panel-separator {
+  display: none;
+}
+.provenance p {
+   margin-top: 0;
+}
+tr td, tr th {
+    vertical-align: top;
+}
+.pane-block-26 { /* help tooltip block */
+    float: right;
+    padding-right: 5px;
+    padding-top: 3px;
+    height: 16px;
+}
+
+/* ---- Images ---- */
+
+.main-image {
+   margin-bottom: 30px;
+}
+.main-image img {
+   width: 100%;
+   height: 100%;
+}
+.image-caption {
+   font-size: 0.85em !important;
+}
+.image-caption a {
+   font-style: italic !important;
+}
+.figure-number {
+    font-weight: bold;
+}
+.supporting-image tr td, tr th {
+    border: medium none;
+}
+.supporting-image table {
+    border-collapse: inherit;
+}
+
+/* ---- ColorBox popup image ---- */
+#cboxContent, .cboxPhoto {
+   border-radius: 0px !important;
+}
+
+/* ---- Footnotes ---- */
+
+.notes {
+   border-top: thin solid #161414;
+   margin-top: 20px;
+   padding-top: 20px;
+   margin-bottom: 0px;
+}
+.inline-footnote {
+    vertical-align: top;
+    font-weight: 900;
+    font-size: 11px;
+	display: inline-block;
+}
+.inline-footnote:visited {
+    color: #1b90ad !important;
+}
+
+/* ---- References ---- */
+
+.biblio-reference p {
+  font-size: 12px;
+  margin-bottom: 0;
+  padding-bottom: 30px;
+}
+.node-type-representative-image h2, .node-type-essay h2 {
+    font-family: 'Gotham SSm A', 'Gotham SSm B', Verdana, sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    font-size: 12px;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+}
+.node-type-representative-image .pane-content > p {
+    margin-top: 0;
+	font-family: 'Gotham SSm A', 'Gotham SSm B', Verdana, sans-serif;
+}
+.node-type-representative-image .panel-separator {
+    display: none;
+}
+
+/* ---- Tipped styling ---- */
+
+.node-type-representative-image .inline-tip {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+}

@@ -1,0 +1,124 @@
+/* ---------- Print Styles ---------- */
+
+
+/* ----- All Pages ----- */
+#header {
+	max-width: 950px;
+	padding-bottom: 20px;
+}
+#header div.section {
+	border-bottom: thin solid #999999;
+}
+#name-and-slogan {
+	min-height: 45px;
+}
+#logo {
+	padding-left: 0;
+	padding-top: 0;
+	padding-bottom: 0;
+}
+#logo > img {
+	display: none;
+}
+#logo:after {
+	content: url('../../../../default/files/getty_logo_print.png');
+	width: 30px;
+}
+#site-name {
+	padding-top: 3px;
+	height: 43px;
+}
+#site-name a {
+	color: black;
+	font-family: 'Gotham SSm A','Gotham SSm B', Verdana, Arial, sans-serif;
+	font-weight: 400;
+}
+/*#page-title.title,           // if there's a margin here, it forces manuscripts to drop to a second page ~ pmc
+#page-title.type {
+	margin-top: 65px;
+}*/
+#content body a:after {
+	content: " ("attr(href)") "; /* print out hyperlink in full */
+}
+
+#edit-search-block-form--2,
+.popup-element-title, 
+.tip.research-notes { /* exclude item from print */    
+    display: none;
+}
+
+/* ----- Home Page ----- */
+.node-type-home-page .view-display-id-get_started,
+.node-type-home-page .popup-layout > tbody,
+.node-type-home-page #nice-menu-2 {
+	display: none;
+}
+.title-page-row {
+	margin-left: -120px;
+}
+.publication-byline, 
+.publication-publisher,
+.title-page-row {
+	color: black;
+}
+
+/* ----- Manuscript ----- */
+
+/* ----- List of Artworks ----- */
+.research-notes, .panel-col-first, .panel-col-last {
+    font-size: 16px;
+}
+.researh-notes {
+    width: 550px;
+}
+.research-notes-title a {
+    color: black;
+}
+.back-btn {
+    display: none;
+}
+
+/* Essays and Research Notes */
+.footnote-label {
+	background: none;
+	color: #000000;
+	display: block;
+	font-weight: 800;
+	margin-left: 0px;
+	text-indent: 0px;
+	width: 15px;
+	position: relative;
+}
+.footnote {
+    font-size: 13px;
+    margin-left: 0px;
+}
+/* ----- Artist List ----- */
+
+/* ----- Essays ----- */
+.footnote-label {
+    display: block;
+    color: black;
+}
+/* ----- Bibliography ----- */
+.biblio-tag-style {
+	border: 1px solid #cccccc;
+}
+#block-views-exp-bibliography-page {	
+	display: none !important;
+}
+.page-bibliography #content {
+	margin-left: 1cm;
+	width: 60% !important;
+	max-width: 60% !important;
+}
+/* ----- About ----- */
+
+.node-type-page #content {
+	font-size: 16px;
+	margin-left: 1cm;
+	width: 60% !important;
+	max-width: 60% !important;
+}
+
+/* ----- Search ----- */

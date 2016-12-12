@@ -1,0 +1,97 @@
+/*This sheet lays out the relative sizes of main DIV sections of the website */
+
+
+/* Page Wrapper */
+html, body, #page {
+    height: 100%;
+}
+html { 
+	height: 100%; 
+	overflow-y: scroll; 
+	overflow-x: hidden; 
+}
+#page-wrapper {
+    width: 100%;
+}
+
+/* Header */
+#header div.section {
+    width: 100%;
+}
+.region-header {
+    float: right;
+    margin: 0 5px 10px;
+}
+
+/* Main Wrapper */
+#main-wrapper {
+    min-height: 800px !important;
+    margin-left: 30px;
+}
+#main {
+    margin-bottom: 120px;
+    margin-top: 38px;
+    width: 1024px;
+}
+.with-secondary-menu .region-header {
+    margin-top: 0;
+}
+#breadcrumb {
+    margin: 0 15px;
+}
+#content {
+    margin-left: 250px;
+}
+
+/* Sidebar */
+#sidebar-first{
+    width: 250px;
+}
+#sidebar-second {
+    height: 25px;
+    left: 780px;
+    margin-top: 12px;
+    position: absolute;
+    width: 200px;
+}
+#sidebar-second.sidebar .section {
+    float: right;
+    padding-top: 0;
+}
+#content, #sidebar-first {
+    display: inline;
+    float: left;
+    position: relative;
+}
+.one-sidebar #content {
+    width: 774px;
+}
+}
+.no-sidebars #content {
+    float: none;
+    width: 774px;
+}
+
+/* About Section Layout */
+.node-type-page #content {
+    max-width: 475px;
+    width: 475px;
+    margin-right: 250px;
+}
+.node-type-page #page-title.type {
+    max-width: 950px;
+}
+/* Footer */
+#footer-wrapper {
+    padding: 0px;
+}
+#footer-right {
+    width: 30%; /* for the right block region */
+}
+#footer-left {
+    width: 50%;
+}
+.container-inline div, .container-inline label {
+    display: inline;
+}
+

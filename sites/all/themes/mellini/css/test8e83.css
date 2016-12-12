@@ -1,0 +1,6 @@
+
+/* Hide all annoying messages from Drupal that appear on the page */
+
+#messages, .messages.status {
+    display: none;
+}

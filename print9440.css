@@ -1,0 +1,160 @@
+@media print and (orientation:landscape) {
+	
+	@page {	margin: .5cm .5cm 1cm; }
+	
+	html, body { color: #000; }
+	
+	#header { margin-bottom: 0; padding-bottom: 0; z-index: 1; }
+	#header div.section {
+		position: relative;
+		margin-bottom: 0;
+		padding-bottom: 0;
+		height: 1cm;
+	}
+	
+
+	#main, #main-wrapper, #page-wrapper {margin: 0 !important; padding-top: 0 !important; min-height: 10cm !important;}
+	#content {
+		width: 90% !important;
+		max-width: 100% !important;
+		padding-bottom: 0;
+		margin-bottom: 0;
+	}
+	#content .section region-content { padding-bottom: 0; margin-bottom: 0; }
+	#content .section region-content { padding-bottom: 0; margin-bottom: 0; }
+	
+	#page-title, #page-title.title {
+		margin-top: 0 !important;
+		padding-top: 0;
+		padding-bottom: 0;
+		width: 90%;
+	}
+	
+	/* manuscript */
+	.horizontal-tabs ul.horizontal-tabs-list li.selected { border: 2px solid #000; }	
+	.ds-2col-stacked-fluid { width: 26cm; margin-bottom: 0; padding-bottom: 0; }
+	.group-left.double, .group-right.double { width: 12cm; margin-bottom: 0 !important; padding-bottom: 0 !important; }
+	.group-left, .group-right { margin-bottom: 0 !important; padding-bottom: 0 !important; }
+	
+	fieldset#translation, fieldset#facsimile, fieldset#english {
+		border: 1px solid #000;
+		padding-bottom: 0 !important;
+		margin-bottom: 0 !important;
+	}
+	
+	#block-views-c6f56458ddee06cd3553880dea78aa6f {
+		display: none;
+	}
+	
+	/* popups */
+	.tpd-backgrounds { border: 2px solid #000; }
+	.inline-tip { color: green; font-weight: bold; z-index: 99999; }
+	.tpd-tooltip {margin-top: -2cm;}
+	
+	
+	.page-essays #content { margin-left: .5cm; }
+	
+	#footer-wrapper {	
+		color: #000;
+		/*display: block;*/
+		position: relative;
+		height: 2cm;
+		background: none;
+		border: none;
+		width: 75%;
+	}	
+	
+	
+	#footer-left { margin-top: 1cm; }
+	.footer-text { margin-top: -17px; padding: 0; margin-left: 150px; width: 90%;} 
+	#block-views-5df08677a945b7f0c136eb199b1e1be2 { display: none; } /* 'how to cite' block */
+	
+	
+	.node-type-essay h1#page-title.title, .node-type-essay #content.column { max-width: 90%; margin-left: .5cm; }	
+	
+	/* body { color: red;	} This was just a test to see if it was working */
+
+}
+
+
+@media print and (orientation:portrait) {
+
+	@page {	margin: .5cm .5cm 1cm; }
+	
+	html, body { color: #000; }
+	
+	#header { margin-bottom: 0; padding-bottom: 0; z-index: 1; }
+	#header div.section {
+		position: relative;
+		margin-bottom: 0;
+		padding-bottom: 0;
+		height: 1cm;
+	}
+	
+	#main, #main-wrapper, #page-wrapper {margin: 0 !important; padding-top: 0 !important; min-height: 10cm !important;}
+	#content {
+		width: 60%;
+		max-width: 19cm;
+		padding-bottom: 0;
+		margin-bottom: 0;
+	}
+	#content .section region-content { padding-bottom: 0; margin-bottom: 0; }
+	#content .section region-content { padding-bottom: 0; margin-bottom: 0; }
+	
+	#page-title, #page-title.title {
+		margin-top: 0 !important;
+		padding-top: 0;
+		padding-bottom: 0;
+		width: 60%;
+	}
+	
+	.horizontal-tabs ul.horizontal-tabs-list li.selected { border: 2px solid #000; }
+	
+	/*.ds-2col-stacked-fluid { width: auto; margin-bottom: 0; padding-bottom: 0; }*/
+	.group-left.double, .group-right.double { width: 18cm !important; height: 21cm; min-height: 18cm; margin-bottom: 0 !important; padding-bottom: 0 !important; font-size: 14px;}
+	/*.group-left, .horizontal-tabs { width: 18cm !important; height: 12cm; margin-bottom: 0 !important; padding-bottom: 0 !important; }*/
+	.group-left.double { page-break-after: always; }
+	.double .deepzoom { width: 16.5cm !important; height: 21cm; }
+	fieldset#translation, fieldset#facsimile, fieldset#english {
+		border: 1px solid #000;
+		padding-bottom: 0 !important;
+		margin-bottom: 0 !important;
+		left: 0 !important;
+	}
+	
+	#block-views-c6f56458ddee06cd3553880dea78aa6f {
+		display: none;
+	}	
+	
+	.tpd-backgrounds { border: 2px solid #000; }
+	.inline-tip { color: green; font-weight: bold; z-index: 99999; }
+	
+	
+	.page-essays #content { margin-left: .5cm; }
+	
+	#footer-wrapper {
+		bottom:0 !important;
+		color: #000;
+		margin-left: 0cm;
+		margin-bottom: 0;
+		margin-top: .5cm;
+		padding-bottom: 0;
+		display: block;
+		position: relative;
+		height: 50px;
+		background: none;
+		border: none;
+		width: 15cm;
+	}
+	
+	
+	
+	
+	#footer-left { margin-top: -1cm; }
+	.footer-text { margin-top: -17px; padding: 0; margin-left: 150px; width: 100%;}
+	#block-views-5df08677a945b7f0c136eb199b1e1be2 { display: none; } /* 'how to cite' block */
+	
+	
+	.node-type-essay h1#page-title.title, .node-type-essay #content.column { max-width: 60%; margin-left: .5cm; }
+
+}

@@ -1,0 +1,56 @@
+/* Bibliography Styling */
+
+.page-bibliography #content {
+    width: 700px;
+}
+.page-bibliography .biblio-reference p {
+     padding-bottom: 0;
+    font-size: 13px;
+    font-family: 'Gotham SSm A', 'Gotham SSm B', Verdana, sans-serif;
+} 
+.page-bibliography .views-exposed-widget.views-widget-filter-field_category_tid {
+    margin-top: 20px;
+    padding-left: 24px;
+}
+.page-bibliography #edit-field-category-tid,
+.page-bibliography #edit-field-category-tid-wrapper > label {
+    font-family: 'Gotham SSm A', 'Gotham SSm B', Verdana, sans-serif;
+}
+.biblio-reference {
+    text-indent: -2em; 
+    margin-left: 2em; 
+    margin-bottom: 0px;
+}
+.view-bibliography .biblio-reference {
+    margin-bottom: 20px;
+}
+.biblio-reference > p {
+    margin-bottom: 0;
+}
+.biblio-url, .biblio-tag-group {
+    font-size: 11px;
+    text-indent: 0;
+    margin-top: 5px;
+    font-family: 'Gotham SSm A','Gotham SSm B', Verdana, sans-serif;
+}
+.biblio-tag-style {
+    background-color: #CCCCCC;
+    border-radius: 5px;
+    margin-top: 5px;
+    padding: 1px 6px;
+    font-size: 11px;
+}
+.biblio-tag-style a {
+    color: #1D1D1D;
+}
+
+
+/* Styling for Citation popup */
+
+.popup-style-white .popup-element-body .center .center {
+    background-color: #494243;
+    color: #b6b3b4;
+    left: -50%;
+    position: absolute;
+    top: -50%;
+}

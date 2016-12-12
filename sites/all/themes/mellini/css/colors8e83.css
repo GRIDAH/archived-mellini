@@ -1,0 +1,121 @@
+/* ---------- Background Colours ------------ */
+
+.node-type-artist, 
+.node-type-bibliography, 
+.page-search404, 
+.not-logged-in, 
+.page-user, 
+.page-search, 
+.page-search-all, 
+.node-type-representative-image, 
+.group-transcription, 
+.group-english, 
+.node-type-page, 
+.concordance-embed, 
+.node-type-essay, 
+.page-essays, 
+.page-bibliography, 
+.page-works-list, 
+.page-works-grid, 
+.page-artists, 
+.node-type-concordance {
+    background-color: #f9f3e2; /* off-white */
+} 
+.node-type-home-page, 
+.node-type-article,
+.node-type-manuscript-page, 
+.page-node-377 {
+    background-color: #302b2c; /* warm dark grey */
+}
+
+/* variations on colours for warm dark grey pages */
+.node-type-article #page-title.type, 
+.node-type-manuscript-page #page-title.type {
+    color: #cccccc;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #CCCCCC;
+}
+
+/* --------- Table styles ------------------- */
+
+table tr th {
+    background: #494243;
+    color: #ffffff !important;
+    font-weight: normal !important;
+    padding: 4px 9px !important;
+}
+.works-list table th {
+    border-top: 1px solid #1d1d1d !important;
+}
+table th:last-of-type {
+    border-right: 1px solid #1d1d1d !important;
+}
+table tr th, table tr th a, table tr th a:hover {
+    color: #707070;
+    font-weight: bold;
+}
+table tbody tr th {
+    vertical-align: top;
+}
+tr td, tr th {
+    border: 1px solid #1d1d1d;
+    padding: 4px 9px;
+    text-align: left;
+}
+table th {
+    border-left: 1px solid #1d1d1d !important;
+    border-right: 1px solid #ccc !important;
+}
+
+/* ---------- Color Module Styles ----------- */
+
+body,
+body.overlay {
+  color: #1D1D1D;
+}
+.tabs ul.primary li a.active {
+  background-color: #ffffff;
+}
+.tabs ul.primary li.active a {
+  background-color: #ffffff;
+  border-bottom: 1px solid #ffffff;
+}
+a {
+  color: #1B90AD;
+}
+a:hover,
+a:focus {
+  color: #1B90AD;
+  text-decoration: underline;
+}
+a:active {
+  color: #1B90AD;
+}
+.page-essays a:visited,
+.node-type-essay a:visited,
+.node-type-representative-image a:visited,
+.node-type-page a:visited {
+  color: #888888 !important;
+}
+
+.region-header,
+.region-header a,
+.region-header li a.active,
+#name-and-slogan,
+#name-and-slogan a,
+#secondary-menu-links li a {
+  color: #fffeff;
+}
+#name-and-slogan a:visited {
+  color: #fffeff;
+}
+
+/* Variations required because of background colours */
+.page-node-377 {
+    color: #ccc;
+}
+.page-node-377 #content {
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+}

@@ -1,0 +1,52 @@
+/* Artit List Styling */
+body.page-artists, .page-artists table {
+	font-family: 'Gotham SSm A', 'Gotham SSm B', Verdana, sans-serif;
+}
+.page-artists #edit-reset {
+    margin-left: 22px;
+    position: absolute;
+    top: 75px;
+    width: 200px;
+}
+.views-exposed-widget.views-widget-filter-field_artist_name_for_list_tid {
+    margin-top: 60px;
+}
+.artist-list {
+    width: 700px;
+}
+.artist-list table {
+    font-size: 12px;
+}
+.view-artist-list th {
+    border-top: 1px solid #1d1d1d;
+}
+.view-grouping-header {
+    font-weight: bold;
+}
+.page-artists .item-no, .page-artists .folio-no {
+   width: 110px !important;
+}
+.artist-list table {
+    margin-bottom: 50px;
+    margin-top: 0px;
+}
+.artist-ulan {
+    float: left;
+    margin-bottom: 10px;
+}
+.artist-list .content {
+    margin-top: 0px;
+}
+.folio-no a, .item-no a {
+    text-transform: lowercase;
+}
+.views-widget-filter-field_artist_name_for_list_tid {
+    margin-left: 23px;
+    margin-top: 20px;
+}
+td.active {
+	background-color: none;
+}
+a[href='']{
+    display:none;
+}
