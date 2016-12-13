@@ -1,16 +1,17 @@
 # archived-mellini
 
-#description
+##Description
 This is an archived version of the Getty Research Institute's first born-digital publication, <a href="www.getty.edu/research/mellini/">Pietro Mellini's Inventory in Verse, 1681</a>. The archive was created using <a href="www.httrack.com">HTTRack</a>.
 
-#License
+##License
 Except as noted in the Image Credits, this work is licensed under a <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
 
 Published by the Getty Research Institute, Los Angeles Getty Publications 1200 Getty Center Drive, Suite 500 Los Angeles, California 90049-1682 www.getty.edu/publications
 
 Identifiers: ISBN 978-1-60606-161-9 (online).
 Baca, Murtha, et. al., Pietro Mellini's Inventory in Verse, 1681: A Digital Facsimile with Translation and Commentary (Los Angeles: Getty Research Institute, 2015), http://hdl.handle.net/10020/mellini.
-Image Credits
+
+##Image Credits
 
 All images listed below are reproduced with the permission of the owners and are expressly excluded from the CC-BY license covering the rest of this digital publication. These images may not be reproduced, copied, transmitted, or manipulated without consent from the owners, who reserve all rights.
 List of Artworks
