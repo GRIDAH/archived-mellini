@@ -14,7 +14,8 @@ Baca, Murtha, et. al., Pietro Mellini's Inventory in Verse, 1681: A Digital Facs
 ##Image Credits
 
 All images listed below are reproduced with the permission of the owners and are expressly excluded from the CC-BY license covering the rest of this digital publication. These images may not be reproduced, copied, transmitted, or manipulated without consent from the owners, who reserve all rights.
-List of Artworks
+
+###List of Artworks
 
     Figure I, 2, a.
     Photographed by Art UK. Photo copyright returned to institution. Northampton, U.K., Northampton Museum and Art Gallery / VADS
@@ -49,7 +50,7 @@ List of Artworks
     Figure II, 30, a.
     Musée des Augustins Photographer: Daniel Martin
 
-Essays
+###Essays
 
 Who Were Pietro and Savo Mellini?
 by Nuria Rodriguez Ortega
