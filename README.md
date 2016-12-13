@@ -1,7 +1,7 @@
 # archived-mellini
 
 ##Description
-This is an archived version of the Getty Research Institute's first born-digital publication, <a href="www.getty.edu/research/mellini/">Pietro Mellini's Inventory in Verse, 1681</a>. The archive was created using <a href="www.httrack.com">HTTRack</a>.
+This is an archived version of the Getty Research Institute's first born-digital publication, _<a href="www.getty.edu/research/mellini/">Pietro Mellini's Inventory in Verse, 1681</a>_. The archive was created using <a href="www.httrack.com">HTTRack</a>.
 
 ##License
 Except as noted in the Image Credits, this work is licensed under a <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
